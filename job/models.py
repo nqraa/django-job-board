@@ -2,8 +2,8 @@ from django.db import models
 
 # Create your models here.
 JOB_TYBE  = (
-        ('FULL Time','Part Time '),
-        ('Part Time','FULL Time'),
+        ('FULL Time','FULL Time'),
+        ('Part Time ','Part Time'),
     )
 class job(models.Model):
     title = models.CharField(max_length=100)
